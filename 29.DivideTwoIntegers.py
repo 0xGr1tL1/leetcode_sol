@@ -29,7 +29,8 @@ class Solution(object):
             
             
             while dividend >= (temp_divisor << 1):
-                temp_divisor <<= 1  # << 1 is just *2 
+                temp_divisor <<= 1  # << 1 is just  *2
+                multiple <<= 1      
             
         
             dividend -= temp_divisor
